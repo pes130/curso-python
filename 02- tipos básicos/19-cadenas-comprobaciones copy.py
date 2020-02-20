@@ -1,0 +1,10 @@
+texto = input("Introduce una cadena: ")
+
+print("¿Es un alfanumérico (números y letras)?:", texto.isalnum())
+print("¿Es sólo letras (a-zA-Z)?:", texto.isalpha())
+print("¿Es un número?:", texto.isdigit())
+print("¿Es minúscula?:", texto.islower())
+print("¿Es mayúscula?:", texto.isupper())
+print("Caracter mayor: ", max(texto))
+print("Caracter menor: ", min(texto))
+print("¿contiene 'lev'?", texto.find('lev'))
