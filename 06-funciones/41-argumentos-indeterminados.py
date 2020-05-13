@@ -7,6 +7,9 @@ def saludar_personas(*personas):
     for persona in personas:
         print("Hola, ", persona)
 
+        
+# Función con un número indeterminado de parámetros con nombre
+# A la función le llega un diccionario con los parámetros.
 def pintar_ficha_personal(**datos):
     print("Diccionario: ", datos)
     print("------------------------")
@@ -16,8 +19,7 @@ def pintar_ficha_personal(**datos):
         print(dato, ": ",datos[dato])
     print("")
 
-# Función con un número indeterminado de parámetros con nombre
-# A la función le llega un diccionario con los parámetros.
+
 
 
 # Invocamos a saludar_personas con distinto número de parámetros
